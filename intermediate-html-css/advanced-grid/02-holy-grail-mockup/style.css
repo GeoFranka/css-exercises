@@ -57,20 +57,21 @@ ul {
   gap: 50px;
 }
 
-.sidebar .photo {
+.sidebar > div {
+  display: grid;
+  align-items: center;
   background-color: white;
   color: black;
-  font-size: 12px;
   font-weight: normal;
+}
+
+.sidebar .photo {
+  font-size: 12px;
   border-radius: 10px;
 }
 
-
 .sidebar .side-content {
-  background-color: white;
-  color: black;
   font-size: 16px;
-  font-weight: normal;
 }
 
 .nav {
