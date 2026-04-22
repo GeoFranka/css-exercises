@@ -71,6 +71,10 @@ ul {
   background-color: #C50208;
 }
 
+.nav ul {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
