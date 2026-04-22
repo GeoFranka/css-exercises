@@ -46,6 +46,9 @@ ul {
 .sidebar {
   background-color: #C50208;
   grid-row: 2 / -2;
+  display: grid;
+  grid-template: repeat(4, 1fr) / 1fr;
+  gap: 50px;
 }
 
 .sidebar .photo {
